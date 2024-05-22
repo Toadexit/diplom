@@ -1,0 +1,15 @@
+.App {
+  overflow: scroll;
+  min-width: 100vh;
+  height: 100vh;
+  text-align: center;
+ /*  display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+.container{
+  width: 1000px;
+  margin: 0 auto;
+  
+}
+

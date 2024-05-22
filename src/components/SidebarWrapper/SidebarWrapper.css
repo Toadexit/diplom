@@ -1,0 +1,6 @@
+.wrapper_main{
+    min-height: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    background: #333;
+}

@@ -1,0 +1,41 @@
+.storage_item {
+    display: flex;
+    background-color: #5c4b51;
+    margin-top: 20px;
+    margin-left: 50px;
+    height: 50px;
+    width: 70%;
+    align-items: center;
+    border-radius: 5px;
+    padding-right: 10px;
+    
+}
+.item_field {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    width: 250px;
+    text-align: start;
+}
+.amount_field {
+    font-size: 20px;
+    font-weight: 500;
+    width: 210px;
+    text-align: start;
+}
+.location_field {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: start;
+    width: 200px;
+}
+.storage_item_button:hover {
+    cursor: pointer;
+}
+.storage_item_button{
+    border-radius: 5px;
+    height: 30px;
+    width: 30px;
+    margin-left: auto;
+    
+}

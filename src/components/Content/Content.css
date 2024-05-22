@@ -1,0 +1,122 @@
+.content{
+    /* display: flex; */
+    position: relative;
+    flex-grow: 0.98;
+    padding-bottom: 40px;
+}
+.hat_photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #dd513a;
+    position: relative;
+    background: url(../../media/hat2.png) center center/cover no-repeat;
+    width: 100%;
+    min-height: 300px;
+    max-height: 300px;
+    z-index: 6;
+}
+.head_title{
+    margin: 0 auto;
+    margin-top:50px;
+    width: 750px;
+    text-align: center;
+    color:#f96c0d;
+    font-size:45px;
+    font-weight: 700;
+    z-index: 6;
+}
+.hat_overlay{
+    height:100%;
+    min-height: 300px;
+    width: 100%;
+    background:rgba(0, 0, 0, 0.5);
+    z-index: -2;
+    position: absolute;
+    top: 0px;
+}
+.main{
+    height: 1100px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #f2ecbc;
+}
+.intro1{
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #a72222;
+    font-size: 45px;
+    font-weight: 700;
+}
+.intro2{
+    text-align: start;
+    margin-left: 40px;
+    margin-top: 10px;
+    color:#f96c0d;
+    font-size: 45px;
+    font-weight: 700;
+}
+.service_box{
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #f2ecbc;
+    min-height: 500px;
+}
+.info_box{
+    background-color: #5c4b51;
+    min-width: 305px;
+    max-width: 305px;
+    border-radius:15px;
+}
+.info_photo{
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 150px;
+
+}
+.text_box{
+    min-height: 300px;
+}
+.text_first{
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    font-size:25px;
+}
+.text_second{
+    color: gray;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left:15px;
+    font-weight: 500;
+}
+.text_third{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    
+}
+.info_box__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    font-size: 18px;
+    font-weight: 700;
+}

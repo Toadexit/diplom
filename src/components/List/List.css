@@ -1,0 +1,15 @@
+.list{
+    display: flex;
+    margin-left: 50px;
+}
+p {
+    font-size: 20px;
+    font-weight: 700;
+}
+.name {
+    margin-left: 10px;
+    margin-right: 100px;
+}
+.amount{
+    margin-right: 100px;
+}

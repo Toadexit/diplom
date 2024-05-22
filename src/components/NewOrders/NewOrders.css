@@ -1,0 +1,39 @@
+.new_order_item {
+    position: relative;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    flex: 0 0 33%;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding-left: 10px;
+}
+.new_order_item_button_success {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    height: 30px;
+    background-color: rgb(138,190,178);
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    border-radius: 10px;
+}
+.new_order_item_button_cancel {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    height: 30px;
+    background-color: rgb(138,190,178);
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    font-weight: 700;
+    color: #000;
+    border-radius: 10px;
+}
+.new_order__text_field{
+    text-align: start;
+    overflow-wrap: break-word;
+}

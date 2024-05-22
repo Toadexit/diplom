@@ -1,0 +1,48 @@
+.OrderContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #5c4b51;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 700px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .OrderContainer input {
+    font-size: 16px;
+    height: 40px;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border:none;
+    border-radius: 10px;
+    box-sizing: border-box; /* Чтобы padding не увеличивал размер элемента */
+  }
+  
+  .OrderContainer input:focus {
+    border-color: #79a69b;
+    outline: none; /* Убираем стандартный фокус браузера */
+  }
+  
+  .OrderContainer button {
+    width: 150px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #8abeb2;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .OrderContainer button:hover {
+    background-color: #79a69b;
+  }

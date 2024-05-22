@@ -1,0 +1,26 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:inherit;
+    min-width:220px;
+    background-color:#8abeb2;
+    padding: 10px;
+    flex-grow:0.02;
+}
+.sidebar_section{
+    list-style: none;
+    padding-inline-start:0;
+}
+.sidebar_item{
+    cursor: pointer;
+    padding: 8px 10px;
+    font-size: 18px;
+}
+.sidebar_item:hover{
+    background-color: chocolate;
+
+}
+.side_text{
+    font-weight: 600;
+}
